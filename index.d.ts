@@ -10,4 +10,4 @@ export function getSchoolGuid(domain: string, name: string): Promise<string | nu
 export function getClassGuid(domain: string, school: string, name: string): Promise<string | null>
 export function getSchools(domain: string): Promise<Array<Array<string>> | null>
 export function getClasses(domain: string, school: string): Promise<Array<Array<string>> | null>
-export function svg(domain: string, school: string, sclass: string, week: number, resWidth: number, resHeight: number): Promise<Buffer | null>
+export function png(domain: string, school: string, sclass: string, week: number, resWidth: number, resHeight: number): Promise<Buffer | null>

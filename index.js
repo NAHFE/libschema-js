@@ -236,7 +236,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { domainExists, schoolExists, classExists, getSchoolGuid, getClassGuid, getSchools, getClasses, svg } = nativeBinding
+const { domainExists, schoolExists, classExists, getSchoolGuid, getClassGuid, getSchools, getClasses, png } = nativeBinding
 
 module.exports.domainExists = domainExists
 module.exports.schoolExists = schoolExists
@@ -245,4 +245,4 @@ module.exports.getSchoolGuid = getSchoolGuid
 module.exports.getClassGuid = getClassGuid
 module.exports.getSchools = getSchools
 module.exports.getClasses = getClasses
-module.exports.svg = svg
+module.exports.png = png
