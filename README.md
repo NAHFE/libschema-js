@@ -1,3 +1,3 @@
-# `libschema-linux-x64-gnu`
+# `@nahfe/libschema-linux-x64-gnu`
 
-This is the **x86_64-unknown-linux-gnu** binary for `libschema`
+This is the **x86_64-unknown-linux-gnu** binary for `@nahfe/libschema`
